@@ -12,9 +12,10 @@ https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList
     ClassTokenList.remove(foo, "blah");   // void.
     ClassTokenList.toggle(foo, "crap");   // void.
     
+Unlike the standard classList, the toggle function does not take the boolean force parameter.
+
     // container is optional.
     ClassTokenList.findAncestorWithClass(foo, "bargle", document.body); 
-    
-    
-Unlike the standard classList, the toggle function does not take the boolean force parameter.
     ClassTokenList.getElementsByClassName(foo, "bargle"); // Array.
+    
+
